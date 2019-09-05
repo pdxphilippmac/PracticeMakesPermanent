@@ -2,4 +2,4 @@
 
 ## Practice Lessons:
 
-- [x] Firest Practice: Clock with JS and CSS -Done-
+- [x] First Practice: Clock with JS and CSS -Done-
