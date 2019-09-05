@@ -14,10 +14,11 @@ body {
   min-height: 100vh;
   align-items: center;
 }
+
 .clock {
   width: 30rem;
   height: 30rem;
-  border: 20px solid beige;
+  border: 20px solid white;
   border-radius: 50%;
   margin: 50px auto;
   position: relative;
@@ -34,8 +35,22 @@ body {
 .hand {
   width: 50%;
   height: 6px;
-  background: beige;
-  border: black solid 2px;
+  background: black;
   position: absolute;
   top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+.minute-hand {
+  background: red;
+}
+
+.hour-hand {
+  background: greenyellow;
+}
+
+.second-hand {
+  background: palevioletred;
 }
